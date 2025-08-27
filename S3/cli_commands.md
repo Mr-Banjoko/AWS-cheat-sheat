@@ -6,3 +6,7 @@ aws s3api create-bucket --bucket <name-of-bucket> --region <your-region>
 ```
 aws s3 ls s3://YOUR_BUCKET_NAME/
 ```
+## 3) copying a file to an s3 bucket
+```
+ aws s3 cp <local_file_path> s3://<your_bucket_name>/<destination_key>
+```
