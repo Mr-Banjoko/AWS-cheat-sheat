@@ -14,7 +14,7 @@ aws s3 ls s3://YOUR_BUCKET_NAME/
 ## 4) Deleting a bucket
 ```
 #fisrt  empty the bucket
-aws s3 rm s3://bucket-name/doc --recursive
+aws s3 rm s3://bucket-name --recursive
 
 #then delete the bucket
 aws s3api delete-bucket --bucket amzn-s3-demo-bucket --region us-east-1
