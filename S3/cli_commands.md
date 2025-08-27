@@ -10,3 +10,12 @@ aws s3 ls s3://YOUR_BUCKET_NAME/
 ```
  aws s3 cp <local_file_path> s3://<your_bucket_name>/<destination_key>
 ```
+
+## 4) Deleting a bucket
+```
+#fisrt  empty the bucket
+aws s3 rm s3://bucket-name/doc --recursive
+
+#then delete the bucket
+aws s3api delete-bucket --bucket amzn-s3-demo-bucket --region us-east-1
+```
