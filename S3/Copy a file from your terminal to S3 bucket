@@ -1,1 +1,0 @@
- aws s3 cp <local_file_path> s3://<your_bucket_name>/<destination_key>
